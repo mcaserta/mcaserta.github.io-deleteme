@@ -4,16 +4,66 @@
   
   <url>
     <loc>https://mirkocaserta.com/categories/</loc>
-    <lastmod>2018-10-28T18:22:00+00:00</lastmod>
+    <lastmod>2021-02-04T18:19:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mirkocaserta.com/tags/ear-training/</loc>
-    <lastmod>2018-10-28T18:22:00+00:00</lastmod>
+    <loc>https://mirkocaserta.com/tags/completablefuture/</loc>
+    <lastmod>2021-02-04T18:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mirkocaserta.com/tags/concurrency/</loc>
+    <lastmod>2021-02-04T18:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mirkocaserta.com/tags/java/</loc>
+    <lastmod>2021-02-04T18:19:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://mirkocaserta.com/</loc>
+    <lastmod>2021-02-04T18:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mirkocaserta.com/posts/</loc>
+    <lastmod>2021-02-04T18:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mirkocaserta.com/tags/software-development/</loc>
+    <lastmod>2021-02-04T18:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mirkocaserta.com/categories/software-development/</loc>
+    <lastmod>2021-02-04T18:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mirkocaserta.com/tags/</loc>
+    <lastmod>2021-02-04T18:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mirkocaserta.com/tags/time-series/</loc>
+    <lastmod>2021-02-04T18:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mirkocaserta.com/tags/time-series-data/</loc>
+    <lastmod>2021-02-04T18:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mirkocaserta.com/posts/2021/02/time-series-data-and-completablefuture-example-in-java/</loc>
+    <lastmod>2021-02-04T18:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mirkocaserta.com/tags/ear-training/</loc>
     <lastmod>2018-10-28T18:22:00+00:00</lastmod>
   </url>
   
@@ -24,16 +74,6 @@
   
   <url>
     <loc>https://mirkocaserta.com/categories/musica/</loc>
-    <lastmod>2018-10-28T18:22:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mirkocaserta.com/posts/</loc>
-    <lastmod>2018-10-28T18:22:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mirkocaserta.com/tags/</loc>
     <lastmod>2018-10-28T18:22:00+00:00</lastmod>
   </url>
   
@@ -50,16 +90,6 @@
   <url>
     <loc>https://mirkocaserta.com/posts/2018/10/kind-of-papera-che-non-galleggia/</loc>
     <lastmod>2018-10-18T14:01:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mirkocaserta.com/tags/software-development/</loc>
-    <lastmod>2013-04-15T14:19:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mirkocaserta.com/categories/software-development/</loc>
-    <lastmod>2013-04-15T14:19:00+00:00</lastmod>
   </url>
   
   <url>
