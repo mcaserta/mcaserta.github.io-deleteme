@@ -2958,6 +2958,7 @@ format (and viceversa). The same is true for json. Just be careful when dealing
 with partial representations: for instance, if you omit the time zone, make
 sure you agree beforehand on a default one with your communicating party
 (usually UTC or your local time zone if you&rsquo;re both in the same one).</p>
+<p><img src="/images/posts/mars-timezone.png" alt="Elon Musk: &ldquo;I&rsquo;m putting people on Mars!&rdquo;, Developers: &ldquo;Fantastic, moretimezones to support&rdquo;."></p>
 <h2 id="management">Management</h2>
 <p>First of all, if you think you can write your own time management
 software library, or even write a little routine that adds or subtracts
@@ -2976,16 +2977,25 @@ In fact, Joda Time has become so popular that it gave birth to
 <a href="http://www.infoq.com/news/2013/02/java-time-api-jdk-8">part</a> of JDK 8.</p>
 <p>Use of popular, well designed and implemented time frameworks will save your
 life. Seriously. Take your time to get familiar with the API of your choosing.</p>
+<p><img src="/images/posts/timezones-meme.png" alt="Friend: &ldquo;What happened?&rdquo;, Me: &ldquo;I had to work with timezonestoday&rdquo;."></p>
 <h2 id="further-resources">Further Resources</h2>
 <p>Here are a few useful links I&rsquo;ve accumulated over time:</p>
 <ul>
 <li><a href="https://zachholman.com/talk/utc-is-enough-for-everyone-right">UTC is enough for everyone&hellip; right?</a></li>
+<li><a href="https://youtu.be/-5wpm-gesOY">The Problem with Time &amp; Timezones - Computerphile</a></li>
 <li><a href="http://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time">Falsehoods programmers believe about time</a></li>
 <li><a href="http://apiux.com/2013/03/20/5-laws-api-dates-and-times/">The 5 laws of API dates and times</a></li>
 <li><a href="http://derickrethans.nl/storing-date-time-in-database.html">Storing Date/Times in Databases</a></li>
 <li><a href="https://medium.com/techtofreedom/5-levels-of-handling-date-and-time-in-python-46b601e47f65">5 Levels of Handling Date and Time in Python</a></li>
+<li><a href="https://blog.wesleyac.com/posts/timezone-bullshit">Timezone Bullshit</a></li>
+<li><a href="https://kirby.kevinson.org/blog/iso-8601-the-better-date-format/">ISO 8601: the better date format</a></li>
 <li><a href="http://youtu.be/kzprsR2SvrQ">A Short History of the Modern Calendar</a></li>
+<li><a href="https://yro.slashdot.org/story/21/03/14/014233/should-we-heed-the-science-and-abolish-daylight-saving-time">Should We &lsquo;Heed the Science and Abolish Daylight Saving Time&rsquo;?</a></li>
 <li><a href="http://opensourcehacker.com/2013/03/28/converting-world-timezones-with-duckduckgo-and-wolfram-alpha/">Converting world timezones with DuckDuckGo and Wolfram Alpha from the browser address bar</a></li>
+<li><a href="https://www.si.com/extra-mustard/2013/12/30/the-extra-mustard-trivia-hour-when-a-calendar-defeated-russia-in-the-1908-olympics">When a Calendar Defeated Russia in the 1908 Olympics</a></li>
+<li><a href="https://www.infobloom.com/why-does-china-have-only-one-time-zone.htm">Why does China Have Only One Time Zone?</a></li>
+<li><a href="https://www.reddit.com/r/ProgrammerHumor/comments/l99ip9/or_is_it_0th/">First day meme</a></li>
+<li><a href="https://www.reddit.com/r/ISO8601/">Glory to ISO8601 Subreddit</a></li>
 </ul>
 ]]></content>
         </item>
