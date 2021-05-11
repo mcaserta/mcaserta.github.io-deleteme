@@ -26,7 +26,7 @@ Ma di questo parleremo più avanti. Per ora torniamo al suono." />
 
 
 
-<link rel="stylesheet" href="https://mirkocaserta.com/main.d7bdd8ee18bfbf4c605488a7e5b1b92cd980dfeed2bdaeab4dd5e931a7a78bc0.css">
+<link rel="stylesheet" href="https://mirkocaserta.com/main.c46cbca46fa76c0fcd3da8313ecf4adee5fb3ffb0288c0902d7e90aead220d79.css">
 
 
 
@@ -44,10 +44,16 @@ Ma di questo parleremo più avanti. Per ora torniamo al suono." />
 
 <meta itemprop="name" content="🇮🇹 Pensa alle tue orecchie come fossero occhi">
 <meta itemprop="description" content="Metafisica dei Suoni Se la musica è l’arte dei suoni, l’ear training è l&rsquo;allenamento dell&rsquo;orecchio musicale. Cosa si intende con orecchio musicale? L&rsquo;udito ha un aspetto passivo più ovvio che consiste nella capacità di riconoscere i suoni, ma ha anche un aspetto attivo in cui il musicista improvvisa una frase ed è istantaneamente in grado di produrla sul proprio strumento.
-Ma di questo parleremo più avanti. Per ora torniamo al suono."><meta itemprop="datePublished" content="2018-10-28T18:22:00&#43;00:00" />
-<meta itemprop="dateModified" content="2018-10-28T18:22:00&#43;00:00" />
-<meta itemprop="wordCount" content="6900"><meta itemprop="image" content="https://mirkocaserta.com"/>
+Ma di questo parleremo più avanti. Per ora torniamo al suono.">
+<meta itemprop="datePublished" content="2018-10-28T18:22:00+00:00" />
+<meta itemprop="dateModified" content="2018-10-28T18:22:00+00:00" />
+<meta itemprop="wordCount" content="6909">
+<meta itemprop="image" content="https://mirkocaserta.com"/>
+
+
+
 <meta itemprop="keywords" content="ear training,musica," />
+
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://mirkocaserta.com"/>
 
@@ -462,11 +468,10 @@ di DO? Vuol dire che abbiamo preso la nota DO come riferimento ed abbiamo
 costruito il nostro sistema di suoni, nel nostro caso la scala maggiore, a
 partire da quella nota.</p>
 <blockquote>
-<p>Il mio amico Johnny, batterista che lavorava in un negozio di strumenti
-musicali, raccontava sempre un aneddoto riguardo una festa di paese in cui un
-signore chiese di far cantare la propria figlia sul palco e, alla domanda su
-quale tonalità volesse per la canzone, il signore rispose orgoglioso: «la
-migliore!».</p>
+<p>Il mio amico Johnny, batterista, raccontava sempre un aneddoto riguardo una
+festa di paese in cui un signore chiese di far cantare la propria figlia sul
+palco e, alla domanda su quale tonalità volesse per la canzone, il signore
+rispose orgoglioso: «la migliore!».</p>
 </blockquote>
 <p>Se andassimo ad analizzare gli intervalli che separano fra di loro le note
 della scala maggiore di DO, vedremmo che fra DO e RE c&rsquo;è un tono, fra RE e MI
@@ -628,13 +633,15 @@ visualizzazione mentale di tutte le possibilità sonore a tua disposizione.</p>
 <p>Il mio consiglio è di seguire un ciclo annidato in cui al primo livello si
 itera sugli  intervalli e al secondo sulla scala cromatica, partendo dalla nota
 più bassa sullo strumento fino alla nota più alta. Lo scrivo in pseudo-codice
-per gli informatici e poi in inglese per gli esseri umani:</p>
-<pre><code>foreach interval in (2m, 2M, 3m, 3M, 4, 4#, 5, 5#, 6, 7m, 7M, 8) {
-  foreach note in (instrument_range) {
+per gli informatici e poi in italiano per gli esseri umani:</p>
+<pre><code>for interval in (2m, 2M, 3m, 3M, 4, 4#, 5, 5#, 6, 7m, 7M, 8) {
+  for note in (instrument_range) {
     play interval from note  
   }
 }
-</code></pre><p>Una persona sana di mente avrà già capito che l&rsquo;esecuzione completa
+</code></pre><p>Per ogni intervallo compreso nell&rsquo;elenco, per ogni nota compresa
+nell&rsquo;estensione dello strumento, suona l&rsquo;intervallo a partire dalla nota.</p>
+<p>Una persona sana di mente avrà già capito che l&rsquo;esecuzione completa
 dell&rsquo;esercizio richiede almeno una mezz&rsquo;oretta ed una pazienza inversamente
 proporzionale al tempo speso nell&rsquo;esercizio stesso (in altre parole: più ti
 eserciti, più diventa facile).</p>
@@ -643,19 +650,19 @@ specificando l&rsquo;estensione naturale del sassofono, la cui nota più bassa �
 bemolle e la più acuta il FA#, la sua esecuzione produrrebbe il seguente
 output:</p>
 <pre><code>play 2m from Bb (Bb-B)
-play 2m from B (B-C)
-play 2m from C (C-C#)
+play 2m from B  (B-C)
+play 2m from C  (C-C#)
 ...
-play 2m from F (F-F#)
+play 2m from F  (F-F#)
 play 2m from F# (F#-G)
 play 2M from Bb (Bb-C)
-play 2M from Bb (B-C#)
-play 2M from C (C-D)
+play 2M from B  (B-C#)
+play 2M from C  (C-D)
 ...
 </code></pre><p>Una variante interessante consiste nell&rsquo;iterare sul circolo delle quinte
 piuttosto che sulla scala cromatica. Se te lo stai chiedendo, nei simboli degli
-intervalli, m sta per minore, M per maggiore e # sta per aumentato. Ho scritto
-tra parentesi le due note dell&rsquo;intervallo. I nomi delle note seguono la
+intervalli, <code>m</code> sta per minore, <code>M</code> per maggiore e <code>#</code> sta per aumentato. Ho
+scritto tra parentesi le due note dell&rsquo;intervallo. I nomi delle note seguono la
 convenzione anglosassone per comodità mia. Se non conosci la convenzione
 anglosassone, questo è un buon momento per impararla perché nessuno scrive
 spartiti usando la convenzione italiana, nemmeno noi italiani.</p>
@@ -726,7 +733,7 @@ euro contattandolo sulla sua <a href="https://www.facebook.com/vizmaurogiovanni"
 <h2 id="come-ho-sviluppato-lorecchio">Come ho sviluppato l&rsquo;orecchio</h2>
 <p>Qui si entra più che altro nel campo della curiosità e dell&rsquo;aneddotica perché
 vorrei raccontare come e perché ho sviluppato l&rsquo;orecchio. In altre parole, se
-il suo scopo era informarti su come migliorare il tuo orecchio, potresti
+il tuo scopo era informarti su come migliorare il tuo orecchio, potresti
 fermarti tranquillamente qui e non perderesti nulla di particolarmente
 importante. Se invece hai resistito eroicamente a questa valanga di testo in
 un&rsquo;epoca in cui la soglia dell&rsquo;attenzione difficilmente supera la lunghezza di
@@ -741,14 +748,14 @@ all&rsquo;epoca un Moog credo costasse quanto una casa).</p>
 suonare l&rsquo;organo e mi capitava spesso di sentirlo mentre cercava di imparare
 una nuova canzone che poteva essere una vecchia melodia napoletana ma anche
 l&rsquo;ultimo successo di uno dei cantanti dell&rsquo;epoca. Papà iniziava suonando una
-nota e, se la successiva non era quella giusta, la andava cercando per
-tentativi. Il procedimento, nei casi più complicati, poteva durare anche una
-mezz&rsquo;oretta ma alla fine papà riusciva a trovare a orecchio tutte le note
-giuste. Per gli accordi della canzone lo sentivo che andava in cerca dalla nota
-più bassa e, quando l&rsquo;aveva trovata, procedeva a suonarne l&rsquo;accordo: una bella
-triade in posizione base. Più tardi avrei capito che era davvero difficile
-sbagliare l&rsquo;accordo dato che nel 98% delle canzoni le possibilità sono limitate
-ad accordi maggiori e minori.</p>
+nota e, se la successiva non era quella giusta, la cercava per tentativi. Il
+procedimento, nei casi più complicati, poteva durare anche una mezz&rsquo;oretta ma
+alla fine papà riusciva a trovare a orecchio tutte le note giuste. Per gli
+accordi della canzone lo sentivo che andava in cerca dalla nota più bassa e,
+quando l&rsquo;aveva trovata, procedeva a suonarne l&rsquo;accordo: una bella
+triade in posizione base. Più tardi avrei capito che era davvero
+difficile sbagliare l&rsquo;accordo dato che nel 98% delle canzoni le
+possibilità sono limitate ad accordi maggiori e minori.</p>
 <p>Insomma, papà imparava a suonare un discreto numero di canzoni ed io avevo
 capito quale era il suo procedimento. All&rsquo;epoca mi piaceva particolarmente la
 melodia di una canzone di Memo Remigi di cui ho purtroppo dimenticato sia il
@@ -861,19 +868,8 @@ d’archi in OH fenicio.</p>
 
             
                 <footer class="footer">
-    <div class="footer__inner">
-        <div class="footer__content">
-            <span>&copy; 2021</span>
-            <span><a href="https://mirkocaserta.com">Mirko Caserta</a></span>
-            <span><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span><span><a href="https://mirkocaserta.com/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
-        </div>
-    </div>
-    <div class="footer__inner">
-        <div class="footer__content">
-            <span><a href="http://gohugo.io">Hugo</a></span>
-            <span><a href="https://github.com/rhazdon/hugo-theme-hello-friend-ng">Theme</a></span>
-          </div>
-    </div>
+    
+    
 </footer>
 
             
@@ -883,7 +879,7 @@ d’archi in OH fenicio.</p>
 
 
 
-<script type="text/javascript" src="https://mirkocaserta.com/bundle.min.2ce64ea6ea44a72b13dd812fc2eb5cca3efe878cce258a47c137c17edf46e0602a05e422b618a5b80b5939c731b7a293351c2f2222a21f6ee27e54a8448dd20e.js" integrity="sha512-LOZOpupEpysT3YEvwutcyj7&#43;h4zOJYpHwTfBft9G4GAqBeQithiluAtZOccxt6KTNRwvIiKiH27iflSoRI3SDg=="></script>
+<script type="text/javascript" src="https://mirkocaserta.com/bundle.min.ace63d93098bf623f7c286a9084a4c22bfc482944c734f87fe0b685c7c6c7fa0ad2edb028c3b4b60d3343720c8ab490b320ad7f8edf4f6e9a6b898fc529057a9.js" integrity="sha512-rOY9kwmL9iP3woapCEpMIr/EgpRMc0&#43;H/gtoXHxsf6CtLtsCjDtLYNM0NyDIq0kLMgrX&#43;O309ummuJj8UpBXqQ=="></script>
 
 
 
